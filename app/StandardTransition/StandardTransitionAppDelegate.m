@@ -22,11 +22,10 @@
     [UIView transitionFromView:self.setupViewController.view toView:self.navigationController.view
                       duration:1.0f options:UIViewAnimationOptionTransitionFlipFromRight completion:^(BOOL finished){
             self.window.rootViewController = self.navigationController;
-          self.navigationController = nil;
+          self.setupViewController = nil;
         }
     ];
 }
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
