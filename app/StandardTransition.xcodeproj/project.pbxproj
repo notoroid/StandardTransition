@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873D5DDE13859FD300E798D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873D5DDD13859FD300E798D1 /* UIKit.framework */; };
+		873D5DE013859FD300E798D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873D5DDF13859FD300E798D1 /* Foundation.framework */; };
+		873D5DE213859FD300E798D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873D5DE113859FD300E798D1 /* CoreGraphics.framework */; };
+		873D5DE813859FD300E798D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 873D5DE613859FD300E798D1 /* InfoPlist.strings */; };
+		873D5DEB13859FD300E798D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 873D5DEA13859FD300E798D1 /* main.m */; };
+		873D5DEE13859FD300E798D1 /* StandardTransitionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 873D5DED13859FD300E798D1 /* StandardTransitionAppDelegate.m */; };
+		873D5DF113859FD300E798D1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873D5DEF13859FD300E798D1 /* MainWindow.xib */; };
+		873D5DF413859FD300E798D1 /* StandardTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873D5DF313859FD300E798D1 /* StandardTransitionViewController.m */; };
+		873D5DF713859FD300E798D1 /* StandardTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873D5DF513859FD300E798D1 /* StandardTransitionViewController.xib */; };
+		873D5E021385A18200E798D1 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D5DFE1385A18200E798D1 /* background.png */; };
+		873D5E031385A18200E798D1 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D5DFF1385A18200E798D1 /* background@2x.png */; };
+		873D5E041385A18200E798D1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D5E001385A18200E798D1 /* Default.png */; };
+		873D5E051385A18200E798D1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 873D5E011385A18200E798D1 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		873D5DD913859FD300E798D1 /* StandardTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandardTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		873D5DDD13859FD300E798D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		873D5DDF13859FD300E798D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		873D5DE113859FD300E798D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		873D5DE513859FD300E798D1 /* StandardTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StandardTransition-Info.plist"; sourceTree = "<group>"; };
+		873D5DE713859FD300E798D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		873D5DE913859FD300E798D1 /* StandardTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StandardTransition-Prefix.pch"; sourceTree = "<group>"; };
+		873D5DEA13859FD300E798D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		873D5DEC13859FD300E798D1 /* StandardTransitionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardTransitionAppDelegate.h; sourceTree = "<group>"; };
+		873D5DED13859FD300E798D1 /* StandardTransitionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardTransitionAppDelegate.m; sourceTree = "<group>"; };
+		873D5DF013859FD300E798D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		873D5DF213859FD300E798D1 /* StandardTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardTransitionViewController.h; sourceTree = "<group>"; };
+		873D5DF313859FD300E798D1 /* StandardTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardTransitionViewController.m; sourceTree = "<group>"; };
+		873D5DF613859FD300E798D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StandardTransitionViewController.xib; sourceTree = "<group>"; };
+		873D5DFE1385A18200E798D1 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		873D5DFF1385A18200E798D1 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		873D5E001385A18200E798D1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		873D5E011385A18200E798D1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		873D5DD613859FD300E798D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873D5DDE13859FD300E798D1 /* UIKit.framework in Frameworks */,
+				873D5DE013859FD300E798D1 /* Foundation.framework in Frameworks */,
+				873D5DE213859FD300E798D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		873D5DCE13859FD300E798D1 = {
+			isa = PBXGroup;
+			children = (
+				873D5DE313859FD300E798D1 /* StandardTransition */,
+				873D5DDC13859FD300E798D1 /* Frameworks */,
+				873D5DDA13859FD300E798D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		873D5DDA13859FD300E798D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873D5DD913859FD300E798D1 /* StandardTransition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873D5DDC13859FD300E798D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				873D5DDD13859FD300E798D1 /* UIKit.framework */,
+				873D5DDF13859FD300E798D1 /* Foundation.framework */,
+				873D5DE113859FD300E798D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		873D5DE313859FD300E798D1 /* StandardTransition */ = {
+			isa = PBXGroup;
+			children = (
+				873D5DFD1385A16000E798D1 /* Resources */,
+				873D5DEC13859FD300E798D1 /* StandardTransitionAppDelegate.h */,
+				873D5DED13859FD300E798D1 /* StandardTransitionAppDelegate.m */,
+				873D5DEF13859FD300E798D1 /* MainWindow.xib */,
+				873D5DF213859FD300E798D1 /* StandardTransitionViewController.h */,
+				873D5DF313859FD300E798D1 /* StandardTransitionViewController.m */,
+				873D5DF513859FD300E798D1 /* StandardTransitionViewController.xib */,
+				873D5DE413859FD300E798D1 /* Supporting Files */,
+			);
+			path = StandardTransition;
+			sourceTree = "<group>";
+		};
+		873D5DE413859FD300E798D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873D5DE513859FD300E798D1 /* StandardTransition-Info.plist */,
+				873D5DE613859FD300E798D1 /* InfoPlist.strings */,
+				873D5DE913859FD300E798D1 /* StandardTransition-Prefix.pch */,
+				873D5DEA13859FD300E798D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873D5DFD1385A16000E798D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				873D5DFE1385A18200E798D1 /* background.png */,
+				873D5DFF1385A18200E798D1 /* background@2x.png */,
+				873D5E001385A18200E798D1 /* Default.png */,
+				873D5E011385A18200E798D1 /* Default@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		873D5DD813859FD300E798D1 /* StandardTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873D5DFA13859FD300E798D1 /* Build configuration list for PBXNativeTarget "StandardTransition" */;
+			buildPhases = (
+				873D5DD513859FD300E798D1 /* Sources */,
+				873D5DD613859FD300E798D1 /* Frameworks */,
+				873D5DD713859FD300E798D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StandardTransition;
+			productName = StandardTransition;
+			productReference = 873D5DD913859FD300E798D1 /* StandardTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873D5DD013859FD300E798D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "いります電算企画";
+			};
+			buildConfigurationList = 873D5DD313859FD300E798D1 /* Build configuration list for PBXProject "StandardTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 873D5DCE13859FD300E798D1;
+			productRefGroup = 873D5DDA13859FD300E798D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873D5DD813859FD300E798D1 /* StandardTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		873D5DD713859FD300E798D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873D5DE813859FD300E798D1 /* InfoPlist.strings in Resources */,
+				873D5DF113859FD300E798D1 /* MainWindow.xib in Resources */,
+				873D5DF713859FD300E798D1 /* StandardTransitionViewController.xib in Resources */,
+				873D5E021385A18200E798D1 /* background.png in Resources */,
+				873D5E031385A18200E798D1 /* background@2x.png in Resources */,
+				873D5E041385A18200E798D1 /* Default.png in Resources */,
+				873D5E051385A18200E798D1 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		873D5DD513859FD300E798D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873D5DEB13859FD300E798D1 /* main.m in Sources */,
+				873D5DEE13859FD300E798D1 /* StandardTransitionAppDelegate.m in Sources */,
+				873D5DF413859FD300E798D1 /* StandardTransitionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		873D5DE613859FD300E798D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873D5DE713859FD300E798D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		873D5DEF13859FD300E798D1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873D5DF013859FD300E798D1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		873D5DF513859FD300E798D1 /* StandardTransitionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873D5DF613859FD300E798D1 /* en */,
+			);
+			name = StandardTransitionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		873D5DF813859FD300E798D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		873D5DF913859FD300E798D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		873D5DFB13859FD300E798D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StandardTransition/StandardTransition-Prefix.pch";
+				INFOPLIST_FILE = "StandardTransition/StandardTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		873D5DFC13859FD300E798D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StandardTransition/StandardTransition-Prefix.pch";
+				INFOPLIST_FILE = "StandardTransition/StandardTransition-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		873D5DD313859FD300E798D1 /* Build configuration list for PBXProject "StandardTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873D5DF813859FD300E798D1 /* Debug */,
+				873D5DF913859FD300E798D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873D5DFA13859FD300E798D1 /* Build configuration list for PBXNativeTarget "StandardTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873D5DFB13859FD300E798D1 /* Debug */,
+				873D5DFC13859FD300E798D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 873D5DD013859FD300E798D1 /* Project object */;
+}
